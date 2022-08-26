@@ -402,7 +402,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Public", "Arial", sans-serif;
+  font-family: "Karla", "Arial", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   background-color: #fff;
@@ -904,11 +904,11 @@ body {
     left: calc(50% + -210px);
   }
   .hero {
-    background-position: calc(50% - 450px) calc(50% - 410px);
+    background-position: calc(50% + 300px) calc(50% + 650px);
   }
   .hero::after {
-    top: calc(50% + 160px);
-    right: calc(50% - 900px);
+    top: calc(50% - 160px);
+    right: calc(50% + 700px);
   }
   .hero__info {
     width: 100%;
