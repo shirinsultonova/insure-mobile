@@ -70,4 +70,22 @@
        @content; 
       }
   }
-  
+  @mixin link {
+    text-decoration: none;
+}
+@mixin media-mobile {
+    @media only screen and (min-width: 375px) {
+        @content;
+    }
+}
+@mixin media-desktop {
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin media-tablet {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
